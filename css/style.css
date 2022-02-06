@@ -6,3 +6,125 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ *{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 20px;
+ }
+
+body{
+    background-image: linear-gradient(blueviolet,pink);
+} 
+
+h1{
+ font-size: 40px;
+ color: rgb(230, 233, 240);  
+ text-align: center;
+ margin-top: 50px;
+ margin-bottom: 100px;
+}
+
+h2{font-size: 30px;
+  color: rgb(230, 223, 240); 
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+h3{
+   font-size: 20px;
+}
+
+section p{
+color:rgb(230, 223, 240);
+font-size: 20px;
+margin-top: 20px;
+margin-bottom: 40px;
+}
+
+.principal{
+   margin: 120px ;
+   margin-top: 20px;
+   margin-bottom: 80px;
+}
+
+.uno{
+ display: inline-block;
+ padding: 5px; 
+ background-color: rgb(104, 38, 209); 
+ border-radius: 10px;
+ margin: 10px;
+ width: 30%;
+ border: 5px solid rgb(64, 3, 80);
+ box-sizing: inherit;
+}
+
+article:first-child{ 
+   border-radius: 30px;
+   background-color:rgb(141, 6, 119)
+}
+
+.uno p,h3,{background-color: rgb(104, 38, 209) ;}
+
+.uno img{
+   margin: 10px 50px 10px 50px; 
+   border-radius: 15px;
+}
+
+.uno p{
+   text-align: justify;
+   margin: 0 10px 20px 10px;
+   color:rgb(230, 223, 240)
+}
+
+.uno h3{
+    text-align: center;
+    color: rgb(230, 233, 240);
+}
+
+.button{
+   box-shadow: 0 2px 6px 0 white;
+   background-color: rgb(245, 219, 235);
+   border-radius: 5px;
+   font-size: 20px;
+   padding: auto;
+   margin: 5px;
+   align-content: center;
+   justify-content: center;
+   display: inline-block;
+   transition: all 2s ease;
+}
+
+.button:hover{
+   background-color: rgb(238, 106, 238) ;
+}
+
+.linea{
+   border-top: 5px solid rgb(141, 6, 119);
+   height: 2px;
+   padding: 0;
+   margin: 20px auto 0 auto;
+}
+
+.git{
+   float: left;
+   width: 100px;
+   height: 100px;
+   margin-bottom: 50px;
+   border-radius: 50px;
+   margin-right: 20px;
+}
+
+.link{
+   margin-bottom: 20px;
+   font-size: 20px;
+}
+
+.time{
+   text-align: center;
+   font-size: 15px;
+   color: rgb(160, 108, 233);
+}
+
+.img{
+   margin-bottom: 200px;
+}
